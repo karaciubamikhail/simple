@@ -1,0 +1,35 @@
+@media(max-width:290px){
+  .brand_slider {
+    padding-top: 60px;
+    position: relative;
+    padding-bottom: 60px;
+    visibility: visible;
+    width: 100%;
+    height: auto;
+  }
+  .brand_slider-wrapper {
+    overflow: hidden;
+  }
+  .brand_slider-items {
+    display: flex;
+    transition: transform 0.5s ease;
+    will-change: transform;
+    gap:40px;
+  }
+  .brand_slider-transition-none {
+    transition: none;
+  }
+  .brand_slider-item {
+    flex: 1 1 50%;
+    max-width: 50%;
+  }
+  .slider_nav{
+    display: flex;
+    justify-content: right;
+    padding-right: 207px;
+    padding-top: 29px;
+  }
+  .brand_img{
+    max-width: 150px;
+  }
+}
